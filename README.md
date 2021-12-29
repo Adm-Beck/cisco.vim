@@ -59,3 +59,7 @@ Limited auto-detection is available based on file contents
 Files ending with `*.cisco` will automatically receive the highlighting
 
 Or execute `:set ft=cisco`
+
+Differences from original
+=====
+Changed commenting rules to better reflect real Cisco IOS behavior
