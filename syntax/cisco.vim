@@ -48,11 +48,10 @@ syn keyword ciscoFunction   access-list access-class access-group prefix-list
 syn keyword ciscoFunction   passive-interface distribute-list permit subnet-zero
 syn match   ciscoFunction   /channel\-\(group\|protocol\)/
 
-syn match   ciscoComment    /!.*$/
+syn match   ciscoComment    /^!.*$
 syn match   ciscoComment    /no\s.*$/
 syn match   ciscoComment    /description.*$/
 syn match   ciscoComment    /remark.*$/
-syn match   ciscoComment    /\s*#.*$/
 
 syn match   ciscoString     /\"[^"]*\"/
 
